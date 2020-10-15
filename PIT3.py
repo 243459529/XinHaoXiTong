@@ -10,6 +10,8 @@ plt.plot(t,np.real(f))
 
 
 plt.title("振幅呈指数衰减的正弦信号")
+plt.xlabel('t')
+plt.ylabel('x(t)')
 
 plt.rcParams['font.sans-serif']=['SimHei']
 plt.rcParams['axes.unicode_minus'] = False
